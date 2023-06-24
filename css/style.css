@@ -91,7 +91,7 @@ p {
 
 .header {
     background-image: url("../images/header.jpg");
-    height: 90vh;
+    height: 95vh;
     width: 100%;
     background-size: cover;
     padding: 0 80px;
@@ -127,4 +127,64 @@ p {
     border: 1px solid #fe725f;
     background-color: #fe725f;
     transition: 0.6s;
+}
+
+/*--------- section nos formation -----------------*/
+
+.formation{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.row {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+.formations-col{
+    flex-basis: 30%;
+    background-color: #f6faff;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    transition: 0.4s;
+}
+
+.formation img {
+    width: 100%;
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+.formation h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #182c64;
+}
+
+.formation p{
+    padding: 10px 20px;
+}
+
+.formations-col:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.btn-formation{
+    display: inline-block;
+    text-decoration: none;
+    color: #182c64;
+    border: 1px solid #182c64;
+    padding: 12px 34px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin: 10px 0 20px 0;
+
 }
