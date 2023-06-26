@@ -186,5 +186,12 @@ p {
     position: relative;
     cursor: pointer;
     margin: 10px 0 20px 0;
+    font-weight: 600;
+}
 
+.btn-formation:hover{
+    border: 1px solid #182c64;
+    background-color: #182c64;
+    color: #ffffff;
+    transition: 0.5s;
 }
