@@ -151,6 +151,7 @@ p {
     margin-bottom: 5%;
     box-sizing: border-box;
     transition: 0.4s;
+    position: relative;
 }
 
 .formation img {
@@ -194,4 +195,26 @@ p {
     background-color: #182c64;
     color: #ffffff;
     transition: 0.5s;
+}
+
+.prix{
+    background-color: #f98305;
+    color: #ffffff;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 13px;
+    font-weight: 650;
+    position: absolute;
+    right: 12px;
+    top: 125px;
+}
+
+.star-formation{
+    text-align: left;
+    margin-left: 20px;
+    color: #f98305;
+    margin-bottom: 10px;
 }
