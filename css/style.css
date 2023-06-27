@@ -218,3 +218,34 @@ p {
     color: #f98305;
     margin-bottom: 10px;
 }
+
+/*-----------Section about-----------*/
+.apropos {
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 52, 112, 0.9),rgba(4, 52, 112, 0.9)), url("../images/about.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 50px 0 0;
+}
+
+.apropos div {
+    width: 60%;
+}
+.apropos h1{
+   padding-bottom: 10px;
+   color: #ffffff; 
+}
+.apropos h3{
+    padding-bottom: 10px;
+    color: #ffffff; 
+ }
+ .apropos p{
+    padding-bottom: 10px;
+    color: #ffffff; 
+ }
