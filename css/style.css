@@ -483,7 +483,7 @@ p {
     width: 48%;
     font-size: 14px;
     font-weight: 400;
-    border-radius: 3px;
+    border-radius: 5px;
     border: none;
     outline: none;
     background-color: #fff;
@@ -499,7 +499,7 @@ p {
     font-size: 14px;
     font-weight: 400;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     outline: none;
     color: #4A4948;
     padding: 15px 20px;
